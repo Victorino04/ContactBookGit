@@ -75,12 +75,12 @@ public class Main {
         input = in.nextInt();
         in.nextLine();
 
-        if (cBook.hasNumber(input)) {
-            Contact contact = cBook.getContact(input);
-            System.out.printf("%s%n%d%n", contact.getName(), contact.getPhone());
-        } else {
-            System.out.println(PHONE_NOT_EXIST);
-        }
+//        if (cBook.hasNumber(input)) {
+//            Contact contact = cBook.getContact(input);
+//            System.out.printf("%s%n%d%n", contact.getName(), contact.getPhone());
+//        } else {
+//            System.out.println(PHONE_NOT_EXIST);
+//        }
     }
 
     private static String getCommand(Scanner in) {
