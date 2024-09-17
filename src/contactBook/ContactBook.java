@@ -115,15 +115,16 @@ public class ContactBook {
         while (i < counter && !result) {
             int j = i + 1;
             while (j < counter && !result) {
-                if (contacts[i].equals(contacts[j]))
+                if (contacts[i].getPhone() == contacts[j].getPhone())
                     result = true;
                 j++;
             }
+            i++;
         }
 
         return result;
     }
-    
+
     public boolean hasNumber(int input) {
         return searchIndexPhone(input) >= 0;
     }

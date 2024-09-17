@@ -25,7 +25,7 @@ public class Main {
     public static final String BOOK_EMPTY = "contactBook.Contact book empty.";
     public static final String PHONE_NOT_EXIST = "Phone number does not exist.";
     public static final String HAS_DUPLICATES = "There are contacts that share phone numbers.";
-    public static final String NO_DUPLICATES = "All contacts have different phone numbers";
+    public static final String NO_DUPLICATES = "All contacts have different phone numbers.";
     public static final String QUIT_MSG = "Goodbye!";
     public static final String COMMAND_ERROR = "Unknown command.";
 
