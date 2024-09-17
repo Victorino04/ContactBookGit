@@ -93,4 +93,20 @@ public class ContactBook {
         return contacts[currentContact++];
     }
 
+    public boolean hasDuplicates() {
+        boolean result = false;
+
+        int i = 0;
+        while (i < counter && !result) {
+            int j = i + 1;
+            while (j < counter && !result) {
+                if (contacts[i].equals(contacts[j]))
+                    result = true;
+                j++;
+            }
+        }
+
+        return result;
+    }
+
 }

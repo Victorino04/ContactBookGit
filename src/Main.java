@@ -77,11 +77,11 @@ public class Main {
 
     private static void hasDuplicates(ContactBook cBook) {
 
-//       if (cBook.hasDuplicates()){
-//           System.out.println(HAS_DUPLICATES);
-//       } else {
-//           System.out.println(NO_DUPLICATES);
-//       }
+       if (cBook.hasDuplicates()){
+           System.out.println(HAS_DUPLICATES);
+       } else 
+           System.out.println(NO_DUPLICATES);
+       
     }
 
     private static void lookUp(Scanner in, ContactBook cBook) {
