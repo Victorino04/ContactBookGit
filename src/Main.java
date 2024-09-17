@@ -82,7 +82,6 @@ public class Main {
 //       } else {
 //           System.out.println(NO_DUPLICATES);
 //       }
-
     }
 
     private static void lookUp(Scanner in, ContactBook cBook) {
